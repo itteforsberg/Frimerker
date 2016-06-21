@@ -1,0 +1,13 @@
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="09.06.2016 11:02:49" StartupItem="Frimerker/Frimerker.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frimerker/Main.cs">
+    <Files>
+      <File FileName="Frimerker/Main.cs" Line="64" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Frimerker PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

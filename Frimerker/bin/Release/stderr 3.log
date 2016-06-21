@@ -1,0 +1,14 @@
+
+Unhandled Exception:
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) <0x799120 + 0x00297> in <filename unknown>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) <0x791c28 + 0x00037> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient:DownloadFile (string,string)
+  at Frimerker.MainClass.HentFiler (Int32 page) <0x78b078 + 0x00253> in <filename unknown>:0 
+  at Frimerker.MainClass.Main (System.String[] args) <0x78af28 + 0x00017> in <filename unknown>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.Net.WebException: The remote server returned an error: (404) Not Found.
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) <0x799120 + 0x00297> in <filename unknown>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) <0x791c28 + 0x00037> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient:DownloadFile (string,string)
+  at Frimerker.MainClass.HentFiler (Int32 page) <0x78b078 + 0x00253> in <filename unknown>:0 
+  at Frimerker.MainClass.Main (System.String[] args) <0x78af28 + 0x00017> in <filename unknown>:0 

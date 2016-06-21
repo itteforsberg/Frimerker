@@ -1,0 +1,34 @@
+
+Unhandled Exception:
+System.Net.WebException: Could not find file "/Users/PKN/Downloads/Page99.jpg". ---> System.IO.FileNotFoundException: Could not find file "/Users/PKN/Downloads/Page99.jpg".
+File name: '/Users/PKN/Downloads/Page99.jpg'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00211] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/corlib/System.IO/FileStream.cs:242 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/corlib/System.IO/FileStream.cs:97 
+  at System.Net.FileWebRequest+FileWebStream..ctor (System.Net.FileWebRequest webRequest, FileMode mode, FileAccess access, FileShare share) [0x00000] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:326 
+  at (wrapper remoting-invoke-with-check) System.Net.FileWebRequest+FileWebStream:.ctor (System.Net.FileWebRequest,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.Net.FileWebRequest.GetResponseInternal () [0x0005d] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:275 
+  --- End of inner exception stack trace ---
+  at System.Net.FileWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x0005a] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:248 
+  at System.Net.FileWebRequest.GetResponse () [0x0002d] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:258 
+  at iTextSharp.text.Image.GetInstance (System.Uri url, Boolean recoverFromImageError) [0x0001a] in <filename unknown>:0 
+  at iTextSharp.text.Image.GetInstance (System.Uri url) [0x00000] in <filename unknown>:0 
+  at iTextSharp.text.Image.GetInstance (System.String filename) [0x00006] in <filename unknown>:0 
+  at Frimerker.MainClass.AddPage (System.String pagename) [0x0000c] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:186 
+  at Frimerker.MainClass.ConvertToPdf () [0x00067] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:176 
+  at Frimerker.MainClass.Main (System.String[] args) [0x0003b] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:49 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.Net.WebException: Could not find file "/Users/PKN/Downloads/Page99.jpg". ---> System.IO.FileNotFoundException: Could not find file "/Users/PKN/Downloads/Page99.jpg".
+File name: '/Users/PKN/Downloads/Page99.jpg'
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00211] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/corlib/System.IO/FileStream.cs:242 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/corlib/System.IO/FileStream.cs:97 
+  at System.Net.FileWebRequest+FileWebStream..ctor (System.Net.FileWebRequest webRequest, FileMode mode, FileAccess access, FileShare share) [0x00000] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:326 
+  at (wrapper remoting-invoke-with-check) System.Net.FileWebRequest+FileWebStream:.ctor (System.Net.FileWebRequest,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.Net.FileWebRequest.GetResponseInternal () [0x0005d] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:275 
+  --- End of inner exception stack trace ---
+  at System.Net.FileWebRequest.EndGetResponse (IAsyncResult asyncResult) [0x0005a] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:248 
+  at System.Net.FileWebRequest.GetResponse () [0x0002d] in /private/tmp/source-mono-4.2.4/bockbuild-mono-4.2.0-branch/profiles/mono-mac-xamarin/build-root/mono-4.2.4/mcs/class/System/System.Net/FileWebRequest.cs:258 
+  at iTextSharp.text.Image.GetInstance (System.Uri url, Boolean recoverFromImageError) [0x0001a] in <filename unknown>:0 
+  at iTextSharp.text.Image.GetInstance (System.Uri url) [0x00000] in <filename unknown>:0 
+  at iTextSharp.text.Image.GetInstance (System.String filename) [0x00006] in <filename unknown>:0 
+  at Frimerker.MainClass.AddPage (System.String pagename) [0x0000c] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:186 
+  at Frimerker.MainClass.ConvertToPdf () [0x00067] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:176 
+  at Frimerker.MainClass.Main (System.String[] args) [0x0003b] in /Users/PKN/Library/Mobile Documents/com~apple~CloudDocs/Source/Frimerker/Frimerker/Main.cs:49 
